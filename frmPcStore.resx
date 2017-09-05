@@ -1,0 +1,3209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Error.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>36</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1861, 1005</value>
+  </data>
+  <data name="tabCustomers.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblAddUpdateCustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddUpdateCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="lblAddUpdateCustomer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddUpdateCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1623, 42</value>
+  </data>
+  <data name="lblAddUpdateCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 29</value>
+  </data>
+  <data name="lblAddUpdateCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblAddUpdateCustomer.Text" xml:space="preserve">
+    <value>עדכון/הוספת לקוח:</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateCustomer.Name" xml:space="preserve">
+    <value>lblAddUpdateCustomer</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateCustomer.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateCustomer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAddCustomerDialog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddCustomerDialog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1510, 471</value>
+  </data>
+  <data name="btnAddCustomerDialog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="btnAddCustomerDialog.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnAddCustomerDialog.Text" xml:space="preserve">
+    <value>אשר</value>
+  </data>
+  <data name="&gt;&gt;btnAddCustomerDialog.Name" xml:space="preserve">
+    <value>btnAddCustomerDialog</value>
+  </data>
+  <data name="&gt;&gt;btnAddCustomerDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddCustomerDialog.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;btnAddCustomerDialog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboxCustomerList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxCustomerList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 89</value>
+  </data>
+  <data name="cboxCustomerList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 33</value>
+  </data>
+  <data name="cboxCustomerList.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerList.Name" xml:space="preserve">
+    <value>cboxCustomerList</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerList.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerList.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtboxCustomerEmail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 416</value>
+  </data>
+  <data name="txtboxCustomerEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxCustomerEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerEmail.Name" xml:space="preserve">
+    <value>txtboxCustomerEmail</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerEmail.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerEmail.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtboxCustomerAddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 332</value>
+  </data>
+  <data name="txtboxCustomerAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxCustomerAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerAddress.Name" xml:space="preserve">
+    <value>txtboxCustomerAddress</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerAddress.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerAddress.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtboxSearchCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxSearchCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 154</value>
+  </data>
+  <data name="txtboxSearchCustomer.MaxLength" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtboxSearchCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxSearchCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchCustomer.Name" xml:space="preserve">
+    <value>txtboxSearchCustomer</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchCustomer.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchCustomer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtboxCustomerTelephone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerTelephone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 374</value>
+  </data>
+  <data name="txtboxCustomerTelephone.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtboxCustomerTelephone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxCustomerTelephone.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="txtboxCustomerTelephone.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerTelephone.Name" xml:space="preserve">
+    <value>txtboxCustomerTelephone</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerTelephone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerTelephone.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerTelephone.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtboxCustomerLastName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 290</value>
+  </data>
+  <data name="txtboxCustomerLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxCustomerLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerLastName.Name" xml:space="preserve">
+    <value>txtboxCustomerLastName</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerLastName.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerLastName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblFindCustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFindCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblFindCustomer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFindCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1684, 149</value>
+  </data>
+  <data name="lblFindCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 50</value>
+  </data>
+  <data name="lblFindCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblFindCustomer.Text" xml:space="preserve">
+    <value>חיפוש לקוח :  
+(ת"ז)</value>
+  </data>
+  <data name="&gt;&gt;lblFindCustomer.Name" xml:space="preserve">
+    <value>lblFindCustomer</value>
+  </data>
+  <data name="&gt;&gt;lblFindCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFindCustomer.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblFindCustomer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtboxCustomerFirstName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 248</value>
+  </data>
+  <data name="txtboxCustomerFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxCustomerFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerFirstName.Name" xml:space="preserve">
+    <value>txtboxCustomerFirstName</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerFirstName.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerFirstName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dgvCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 58</value>
+  </data>
+  <data name="dgvCustomers.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dgvCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 985</value>
+  </data>
+  <data name="dgvCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomers.Name" xml:space="preserve">
+    <value>dgvCustomers</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomers.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomers.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblCustomerEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerEmail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerEmail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1686, 422</value>
+  </data>
+  <data name="lblCustomerEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 25</value>
+  </data>
+  <data name="lblCustomerEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblCustomerEmail.Text" xml:space="preserve">
+    <value>דואר אלקטרוני</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerEmail.Name" xml:space="preserve">
+    <value>lblCustomerEmail</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerEmail.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerEmail.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtboxCustomerID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 206</value>
+  </data>
+  <data name="txtboxCustomerID.MaxLength" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtboxCustomerID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxCustomerID.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerID.Name" xml:space="preserve">
+    <value>txtboxCustomerID</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerID.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerID.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblCustomerTelephone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerTelephone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerTelephone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerTelephone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1748, 380</value>
+  </data>
+  <data name="lblCustomerTelephone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="lblCustomerTelephone.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblCustomerTelephone.Text" xml:space="preserve">
+    <value>סלולרי </value>
+  </data>
+  <data name="&gt;&gt;lblCustomerTelephone.Name" xml:space="preserve">
+    <value>lblCustomerTelephone</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerTelephone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerTelephone.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerTelephone.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblFirstNameCustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFirstNameCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblFirstNameCustomer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFirstNameCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1734, 256</value>
+  </data>
+  <data name="lblFirstNameCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="lblFirstNameCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblFirstNameCustomer.Text" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="&gt;&gt;lblFirstNameCustomer.Name" xml:space="preserve">
+    <value>lblFirstNameCustomer</value>
+  </data>
+  <data name="&gt;&gt;lblFirstNameCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFirstNameCustomer.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblFirstNameCustomer.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblCustomerAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerAddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerAddress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1755, 340</value>
+  </data>
+  <data name="lblCustomerAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 25</value>
+  </data>
+  <data name="lblCustomerAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblCustomerAddress.Text" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerAddress.Name" xml:space="preserve">
+    <value>lblCustomerAddress</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerAddress.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerAddress.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblCustomerID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1782, 212</value>
+  </data>
+  <data name="lblCustomerID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 25</value>
+  </data>
+  <data name="lblCustomerID.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblCustomerID.Text" xml:space="preserve">
+    <value>ת.ז</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerID.Name" xml:space="preserve">
+    <value>lblCustomerID</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerID.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerID.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblLastNameCustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLastNameCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblLastNameCustomer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLastNameCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1713, 298</value>
+  </data>
+  <data name="lblLastNameCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="lblLastNameCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblLastNameCustomer.Text" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="&gt;&gt;lblLastNameCustomer.Name" xml:space="preserve">
+    <value>lblLastNameCustomer</value>
+  </data>
+  <data name="&gt;&gt;lblLastNameCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLastNameCustomer.Parent" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblLastNameCustomer.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tabCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabCustomers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1853, 979</value>
+  </data>
+  <data name="tabCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabCustomers.Text" xml:space="preserve">
+    <value>לקוחות</value>
+  </data>
+  <data name="&gt;&gt;tabCustomers.Name" xml:space="preserve">
+    <value>tabCustomers</value>
+  </data>
+  <data name="&gt;&gt;tabCustomers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCustomers.Parent" xml:space="preserve">
+    <value>tabPcStore</value>
+  </data>
+  <data name="&gt;&gt;tabCustomers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabProducts.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="cboxProductList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxProductList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 89</value>
+  </data>
+  <data name="cboxProductList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="cboxProductList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 33</value>
+  </data>
+  <data name="cboxProductList.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;cboxProductList.Name" xml:space="preserve">
+    <value>cboxProductList</value>
+  </data>
+  <data name="&gt;&gt;cboxProductList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxProductList.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;cboxProductList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAddUpdateProduct.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddUpdateProduct.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="lblAddUpdateProduct.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddUpdateProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1623, 42</value>
+  </data>
+  <data name="lblAddUpdateProduct.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="lblAddUpdateProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 29</value>
+  </data>
+  <data name="lblAddUpdateProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblAddUpdateProduct.Text" xml:space="preserve">
+    <value>עדכון/הוספת מוצר:</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateProduct.Name" xml:space="preserve">
+    <value>lblAddUpdateProduct</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateProduct.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateProduct.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboxAddProductSupplierIdentity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxAddProductSupplierIdentity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 248</value>
+  </data>
+  <data name="cboxAddProductSupplierIdentity.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="cboxAddProductSupplierIdentity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="cboxAddProductSupplierIdentity.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductSupplierIdentity.Name" xml:space="preserve">
+    <value>cboxAddProductSupplierIdentity</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductSupplierIdentity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductSupplierIdentity.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductSupplierIdentity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboxAddProductManufacturer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxAddProductManufacturer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 332</value>
+  </data>
+  <data name="cboxAddProductManufacturer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="cboxAddProductManufacturer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="cboxAddProductManufacturer.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductManufacturer.Name" xml:space="preserve">
+    <value>cboxAddProductManufacturer</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductManufacturer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductManufacturer.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductManufacturer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboxAddProductType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxAddProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 290</value>
+  </data>
+  <data name="cboxAddProductType.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="cboxAddProductType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="cboxAddProductType.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductType.Name" xml:space="preserve">
+    <value>cboxAddProductType</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductType.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;cboxAddProductType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblAddProductManufacturer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddProductManufacturer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddProductManufacturer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddProductManufacturer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1779, 340</value>
+  </data>
+  <data name="lblAddProductManufacturer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="lblAddProductManufacturer.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="lblAddProductManufacturer.Text" xml:space="preserve">
+    <value>יצרן</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductManufacturer.Name" xml:space="preserve">
+    <value>lblAddProductManufacturer</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductManufacturer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductManufacturer.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductManufacturer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAddProductType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddProductType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddProductType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1725, 298</value>
+  </data>
+  <data name="lblAddProductType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 25</value>
+  </data>
+  <data name="lblAddProductType.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblAddProductType.Text" xml:space="preserve">
+    <value>סוג המוצר</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductType.Name" xml:space="preserve">
+    <value>lblAddProductType</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductType.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductType.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnAddProductDialog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddProductDialog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1682, 547</value>
+  </data>
+  <data name="btnAddProductDialog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="btnAddProductDialog.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="btnAddProductDialog.Text" xml:space="preserve">
+    <value>הוסף/עדכן מוצר</value>
+  </data>
+  <data name="&gt;&gt;btnAddProductDialog.Name" xml:space="preserve">
+    <value>btnAddProductDialog</value>
+  </data>
+  <data name="&gt;&gt;btnAddProductDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddProductDialog.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;btnAddProductDialog.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtboxAddProductInStock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxAddProductInStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 500</value>
+  </data>
+  <data name="txtboxAddProductInStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxAddProductInStock.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductInStock.Name" xml:space="preserve">
+    <value>txtboxAddProductInStock</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductInStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductInStock.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductInStock.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtboxAddProductPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxAddProductPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 458</value>
+  </data>
+  <data name="txtboxAddProductPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxAddProductPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductPrice.Name" xml:space="preserve">
+    <value>txtboxAddProductPrice</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductPrice.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductPrice.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtboxAddProductDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxAddProductDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 416</value>
+  </data>
+  <data name="txtboxAddProductDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxAddProductDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductDescription.Name" xml:space="preserve">
+    <value>txtboxAddProductDescription</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductDescription.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductDescription.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtboxAddProductName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxAddProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 374</value>
+  </data>
+  <data name="txtboxAddProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxAddProductName.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductName.Name" xml:space="preserve">
+    <value>txtboxAddProductName</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductName.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtboxAddProductSerialNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxAddProductSerialNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 206</value>
+  </data>
+  <data name="txtboxAddProductSerialNum.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtboxAddProductSerialNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxAddProductSerialNum.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductSerialNum.Name" xml:space="preserve">
+    <value>txtboxAddProductSerialNum</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductSerialNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductSerialNum.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;txtboxAddProductSerialNum.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtboxSearchProducts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxSearchProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 154</value>
+  </data>
+  <data name="txtboxSearchProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxSearchProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchProducts.Name" xml:space="preserve">
+    <value>txtboxSearchProducts</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchProducts.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchProducts.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblAddProductInStock.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddProductInStock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddProductInStock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddProductInStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1717, 506</value>
+  </data>
+  <data name="lblAddProductInStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 25</value>
+  </data>
+  <data name="lblAddProductInStock.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblAddProductInStock.Text" xml:space="preserve">
+    <value>זמין במלאי</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductInStock.Name" xml:space="preserve">
+    <value>lblAddProductInStock</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductInStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductInStock.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductInStock.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblAddProductPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddProductPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddProductPrice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddProductPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1772, 464</value>
+  </data>
+  <data name="lblAddProductPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 25</value>
+  </data>
+  <data name="lblAddProductPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblAddProductPrice.Text" xml:space="preserve">
+    <value>מחיר</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductPrice.Name" xml:space="preserve">
+    <value>lblAddProductPrice</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductPrice.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductPrice.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblAddProductDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddProductDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddProductDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddProductDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1703, 422</value>
+  </data>
+  <data name="lblAddProductDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="lblAddProductDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblAddProductDescription.Text" xml:space="preserve">
+    <value>תיאור המוצר</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductDescription.Name" xml:space="preserve">
+    <value>lblAddProductDescription</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductDescription.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductDescription.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblAddProductSupplierIdentity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddProductSupplierIdentity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddProductSupplierIdentity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddProductSupplierIdentity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1726, 256</value>
+  </data>
+  <data name="lblAddProductSupplierIdentity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 25</value>
+  </data>
+  <data name="lblAddProductSupplierIdentity.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblAddProductSupplierIdentity.Text" xml:space="preserve">
+    <value>מזהה ספק</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductSupplierIdentity.Name" xml:space="preserve">
+    <value>lblAddProductSupplierIdentity</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductSupplierIdentity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductSupplierIdentity.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductSupplierIdentity.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblAddProductName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddProductName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddProductName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1725, 380</value>
+  </data>
+  <data name="lblAddProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="lblAddProductName.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblAddProductName.Text" xml:space="preserve">
+    <value>שם המוצר</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductName.Name" xml:space="preserve">
+    <value>lblAddProductName</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductName.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductName.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblAddProductSerialNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddProductSerialNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddProductSerialNum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddProductSerialNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1705, 212</value>
+  </data>
+  <data name="lblAddProductSerialNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 25</value>
+  </data>
+  <data name="lblAddProductSerialNum.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblAddProductSerialNum.Text" xml:space="preserve">
+    <value>מספר סידורי</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductSerialNum.Name" xml:space="preserve">
+    <value>lblAddProductSerialNum</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductSerialNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductSerialNum.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblAddProductSerialNum.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnRemoveProduct.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemoveProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1572, 547</value>
+  </data>
+  <data name="btnRemoveProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="btnRemoveProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnRemoveProduct.Text" xml:space="preserve">
+    <value>הסר מוצר</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveProduct.Name" xml:space="preserve">
+    <value>btnRemoveProduct</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveProduct.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveProduct.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblSearchProduct.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSearchProduct.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblSearchProduct.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSearchProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1700, 135</value>
+  </data>
+  <data name="lblSearchProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 50</value>
+  </data>
+  <data name="lblSearchProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSearchProduct.Text" xml:space="preserve">
+    <value>: חיפוש מוצר 
+(תיאור המוצר)</value>
+  </data>
+  <data name="&gt;&gt;lblSearchProduct.Name" xml:space="preserve">
+    <value>lblSearchProduct</value>
+  </data>
+  <data name="&gt;&gt;lblSearchProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSearchProduct.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;lblSearchProduct.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="dgvProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 58</value>
+  </data>
+  <data name="dgvProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1298, 985</value>
+  </data>
+  <data name="dgvProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvProducts.Name" xml:space="preserve">
+    <value>dgvProducts</value>
+  </data>
+  <data name="&gt;&gt;dgvProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvProducts.Parent" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;dgvProducts.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="tabProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabProducts.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabProducts.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="tabProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1853, 979</value>
+  </data>
+  <data name="tabProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabProducts.Text" xml:space="preserve">
+    <value>מוצרים</value>
+  </data>
+  <data name="&gt;&gt;tabProducts.Name" xml:space="preserve">
+    <value>tabProducts</value>
+  </data>
+  <data name="&gt;&gt;tabProducts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabProducts.Parent" xml:space="preserve">
+    <value>tabPcStore</value>
+  </data>
+  <data name="&gt;&gt;tabProducts.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabSuppliers.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="dgvSuppliersProductList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 58</value>
+  </data>
+  <data name="dgvSuppliersProductList.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dgvSuppliersProductList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>943, 985</value>
+  </data>
+  <data name="dgvSuppliersProductList.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="dgvSuppliersProductList.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dgvSuppliersProductList.Name" xml:space="preserve">
+    <value>dgvSuppliersProductList</value>
+  </data>
+  <data name="&gt;&gt;dgvSuppliersProductList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvSuppliersProductList.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;dgvSuppliersProductList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboxSupplierList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxSupplierList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 89</value>
+  </data>
+  <data name="cboxSupplierList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 33</value>
+  </data>
+  <data name="cboxSupplierList.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;cboxSupplierList.Name" xml:space="preserve">
+    <value>cboxSupplierList</value>
+  </data>
+  <data name="&gt;&gt;cboxSupplierList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxSupplierList.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;cboxSupplierList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblAddUpdateSupplier.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddUpdateSupplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="lblAddUpdateSupplier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddUpdateSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1623, 42</value>
+  </data>
+  <data name="lblAddUpdateSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 29</value>
+  </data>
+  <data name="lblAddUpdateSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblAddUpdateSupplier.Text" xml:space="preserve">
+    <value>עדכון/הוספת ספק :</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateSupplier.Name" xml:space="preserve">
+    <value>lblAddUpdateSupplier</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateSupplier.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateSupplier.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtboxSupplierID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxSupplierID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 206</value>
+  </data>
+  <data name="txtboxSupplierID.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtboxSupplierID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxSupplierID.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierID.Name" xml:space="preserve">
+    <value>txtboxSupplierID</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierID.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierID.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtboxSupplierPhone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxSupplierPhone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 290</value>
+  </data>
+  <data name="txtboxSupplierPhone.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtboxSupplierPhone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxSupplierPhone.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierPhone.Name" xml:space="preserve">
+    <value>txtboxSupplierPhone</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierPhone.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierPhone.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtboxSupplierName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxSupplierName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 248</value>
+  </data>
+  <data name="txtboxSupplierName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxSupplierName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierName.Name" xml:space="preserve">
+    <value>txtboxSupplierName</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierName.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;txtboxSupplierName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnAddSupplierDialog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddSupplierDialog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1556, 346</value>
+  </data>
+  <data name="btnAddSupplierDialog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btnAddSupplierDialog.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnAddSupplierDialog.Text" xml:space="preserve">
+    <value>הוסף/עדכן ספק</value>
+  </data>
+  <data name="&gt;&gt;btnAddSupplierDialog.Name" xml:space="preserve">
+    <value>btnAddSupplierDialog</value>
+  </data>
+  <data name="&gt;&gt;btnAddSupplierDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddSupplierDialog.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;btnAddSupplierDialog.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblAddSupplierPhone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddSupplierPhone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddSupplierPhone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddSupplierPhone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1761, 298</value>
+  </data>
+  <data name="lblAddSupplierPhone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 25</value>
+  </data>
+  <data name="lblAddSupplierPhone.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblAddSupplierPhone.Text" xml:space="preserve">
+    <value>טלפון</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierPhone.Name" xml:space="preserve">
+    <value>lblAddSupplierPhone</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierPhone.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierPhone.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblAddSupplierID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddSupplierID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddSupplierID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddSupplierID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1726, 212</value>
+  </data>
+  <data name="lblAddSupplierID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 25</value>
+  </data>
+  <data name="lblAddSupplierID.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblAddSupplierID.Text" xml:space="preserve">
+    <value>מזהה ספק</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierID.Name" xml:space="preserve">
+    <value>lblAddSupplierID</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierID.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierID.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblAddSupplierName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddSupplierName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblAddSupplierName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddSupplierName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1744, 256</value>
+  </data>
+  <data name="lblAddSupplierName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 25</value>
+  </data>
+  <data name="lblAddSupplierName.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblAddSupplierName.Text" xml:space="preserve">
+    <value>שם ספק</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierName.Name" xml:space="preserve">
+    <value>lblAddSupplierName</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierName.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;lblAddSupplierName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnRemoveSupplier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemoveSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1475, 346</value>
+  </data>
+  <data name="btnRemoveSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRemoveSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnRemoveSupplier.Text" xml:space="preserve">
+    <value>הסר ספק</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSupplier.Name" xml:space="preserve">
+    <value>btnRemoveSupplier</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSupplier.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSupplier.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtboxSearchSuppliers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxSearchSuppliers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 154</value>
+  </data>
+  <data name="txtboxSearchSuppliers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxSearchSuppliers.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchSuppliers.Name" xml:space="preserve">
+    <value>txtboxSearchSuppliers</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchSuppliers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchSuppliers.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchSuppliers.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblSearchSupplier.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSearchSupplier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblSearchSupplier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSearchSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1703, 135</value>
+  </data>
+  <data name="lblSearchSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 50</value>
+  </data>
+  <data name="lblSearchSupplier.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSearchSupplier.Text" xml:space="preserve">
+    <value>חיפוש ספק : 
+(מזהה ספק)</value>
+  </data>
+  <data name="&gt;&gt;lblSearchSupplier.Name" xml:space="preserve">
+    <value>lblSearchSupplier</value>
+  </data>
+  <data name="&gt;&gt;lblSearchSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSearchSupplier.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;lblSearchSupplier.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="dgvSuppliers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 58</value>
+  </data>
+  <data name="dgvSuppliers.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dgvSuppliers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 985</value>
+  </data>
+  <data name="dgvSuppliers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvSuppliers.Name" xml:space="preserve">
+    <value>dgvSuppliers</value>
+  </data>
+  <data name="&gt;&gt;dgvSuppliers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvSuppliers.Parent" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;dgvSuppliers.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tabSuppliers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabSuppliers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabSuppliers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1853, 979</value>
+  </data>
+  <data name="tabSuppliers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabSuppliers.Text" xml:space="preserve">
+    <value>ספקים</value>
+  </data>
+  <data name="&gt;&gt;tabSuppliers.Name" xml:space="preserve">
+    <value>tabSuppliers</value>
+  </data>
+  <data name="&gt;&gt;tabSuppliers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSuppliers.Parent" xml:space="preserve">
+    <value>tabPcStore</value>
+  </data>
+  <data name="&gt;&gt;tabSuppliers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabOrders.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCustomerExport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCustomerExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1391, 391</value>
+  </data>
+  <data name="btnCustomerExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="btnCustomerExport.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnCustomerExport.Text" xml:space="preserve">
+    <value>ייצוא הזמנות לקוח</value>
+  </data>
+  <data name="&gt;&gt;btnCustomerExport.Name" xml:space="preserve">
+    <value>btnCustomerExport</value>
+  </data>
+  <data name="&gt;&gt;btnCustomerExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCustomerExport.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;btnCustomerExport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblAddRemoveOrder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddRemoveOrder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="lblAddRemoveOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddRemoveOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1614, 42</value>
+  </data>
+  <data name="lblAddRemoveOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 29</value>
+  </data>
+  <data name="lblAddRemoveOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lblAddRemoveOrder.Text" xml:space="preserve">
+    <value>ביצוע/מחיקת הזמנה</value>
+  </data>
+  <data name="&gt;&gt;lblAddRemoveOrder.Name" xml:space="preserve">
+    <value>lblAddRemoveOrder</value>
+  </data>
+  <data name="&gt;&gt;lblAddRemoveOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddRemoveOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;lblAddRemoveOrder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgvCustomerOrderDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 562</value>
+  </data>
+  <data name="dgvCustomerOrderDetail.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dgvCustomerOrderDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 490</value>
+  </data>
+  <data name="dgvCustomerOrderDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomerOrderDetail.Name" xml:space="preserve">
+    <value>dgvCustomerOrderDetail</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomerOrderDetail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomerOrderDetail.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomerOrderDetail.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtboxSearchOrder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxSearchOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 89</value>
+  </data>
+  <data name="txtboxSearchOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxSearchOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchOrder.Name" xml:space="preserve">
+    <value>txtboxSearchOrder</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchOrder.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSearchOrder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSearchOrder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblSearchOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSearchOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1689, 89</value>
+  </data>
+  <data name="lblSearchOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 50</value>
+  </data>
+  <data name="lblSearchOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblSearchOrder.Text" xml:space="preserve">
+    <value>חיפוש הזמנה :
+(ת"ז של לקוח)</value>
+  </data>
+  <data name="&gt;&gt;lblSearchOrder.Name" xml:space="preserve">
+    <value>lblSearchOrder</value>
+  </data>
+  <data name="&gt;&gt;lblSearchOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSearchOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;lblSearchOrder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnRemoveOrder.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRemoveOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemoveOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1577, 391</value>
+  </data>
+  <data name="btnRemoveOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRemoveOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="btnRemoveOrder.Text" xml:space="preserve">
+    <value>מחק הזמנה </value>
+  </data>
+  <data name="&gt;&gt;btnRemoveOrder.Name" xml:space="preserve">
+    <value>btnRemoveOrder</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveOrder.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtboxCustomerProducMotherBoard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerProducMotherBoard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1390, 332</value>
+  </data>
+  <data name="txtboxCustomerProducMotherBoard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 31</value>
+  </data>
+  <data name="txtboxCustomerProducMotherBoard.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProducMotherBoard.Name" xml:space="preserve">
+    <value>txtboxCustomerProducMotherBoard</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProducMotherBoard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProducMotherBoard.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProducMotherBoard.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtboxCustomerProductCPU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerProductCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1390, 290</value>
+  </data>
+  <data name="txtboxCustomerProductCPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 31</value>
+  </data>
+  <data name="txtboxCustomerProductCPU.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductCPU.Name" xml:space="preserve">
+    <value>txtboxCustomerProductCPU</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductCPU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductCPU.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductCPU.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtboxCustomerProductGPU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerProductGPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1390, 248</value>
+  </data>
+  <data name="txtboxCustomerProductGPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 31</value>
+  </data>
+  <data name="txtboxCustomerProductGPU.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductGPU.Name" xml:space="preserve">
+    <value>txtboxCustomerProductGPU</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductGPU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductGPU.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductGPU.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtboxCustomerProductRAM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxCustomerProductRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1390, 206</value>
+  </data>
+  <data name="txtboxCustomerProductRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 31</value>
+  </data>
+  <data name="txtboxCustomerProductRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductRAM.Name" xml:space="preserve">
+    <value>txtboxCustomerProductRAM</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductRAM.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;txtboxCustomerProductRAM.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblCustomerProductStock.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerProductStock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblCustomerProductStock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerProductStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1387, 60</value>
+  </data>
+  <data name="lblCustomerProductStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="lblCustomerProductStock.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblCustomerProductStock.Text" xml:space="preserve">
+    <value>כמות</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductStock.Name" xml:space="preserve">
+    <value>lblCustomerProductStock</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductStock.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductStock.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblCustomerProductCPU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerProductCPU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerProductCPU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerProductCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1767, 290</value>
+  </data>
+  <data name="lblCustomerProductCPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 25</value>
+  </data>
+  <data name="lblCustomerProductCPU.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblCustomerProductCPU.Text" xml:space="preserve">
+    <value>מעבד</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductCPU.Name" xml:space="preserve">
+    <value>lblCustomerProductCPU</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductCPU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductCPU.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductCPU.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cboxCustomerProductCPU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxCustomerProductCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 290</value>
+  </data>
+  <data name="cboxCustomerProductCPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="cboxCustomerProductCPU.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductCPU.Name" xml:space="preserve">
+    <value>cboxCustomerProductCPU</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductCPU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductCPU.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductCPU.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblCustomerProductMotherBoard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerProductMotherBoard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerProductMotherBoard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerProductMotherBoard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1753, 332</value>
+  </data>
+  <data name="lblCustomerProductMotherBoard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="lblCustomerProductMotherBoard.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblCustomerProductMotherBoard.Text" xml:space="preserve">
+    <value>לוח אם</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductMotherBoard.Name" xml:space="preserve">
+    <value>lblCustomerProductMotherBoard</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductMotherBoard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductMotherBoard.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductMotherBoard.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cboxCustomerProducMotherBoard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxCustomerProducMotherBoard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 332</value>
+  </data>
+  <data name="cboxCustomerProducMotherBoard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="cboxCustomerProducMotherBoard.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProducMotherBoard.Name" xml:space="preserve">
+    <value>cboxCustomerProducMotherBoard</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProducMotherBoard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProducMotherBoard.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProducMotherBoard.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="dgvProductOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 58</value>
+  </data>
+  <data name="dgvProductOrder.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dgvProductOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 481</value>
+  </data>
+  <data name="dgvProductOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;dgvProductOrder.Name" xml:space="preserve">
+    <value>dgvProductOrder</value>
+  </data>
+  <data name="&gt;&gt;dgvProductOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvProductOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;dgvProductOrder.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblCustomerProductGPU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerProductGPU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerProductGPU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerProductGPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1712, 248</value>
+  </data>
+  <data name="lblCustomerProductGPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 25</value>
+  </data>
+  <data name="lblCustomerProductGPU.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblCustomerProductGPU.Text" xml:space="preserve">
+    <value>כרטיס מסך </value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductGPU.Name" xml:space="preserve">
+    <value>lblCustomerProductGPU</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductGPU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductGPU.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductGPU.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cboxCustomerProductGPU.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxCustomerProductGPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 248</value>
+  </data>
+  <data name="cboxCustomerProductGPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="cboxCustomerProductGPU.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductGPU.Name" xml:space="preserve">
+    <value>cboxCustomerProductGPU</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductGPU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductGPU.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductGPU.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnApplyOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnApplyOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1729, 391</value>
+  </data>
+  <data name="btnApplyOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnApplyOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnApplyOrder.Text" xml:space="preserve">
+    <value>בצע הזמנה</value>
+  </data>
+  <data name="&gt;&gt;btnApplyOrder.Name" xml:space="preserve">
+    <value>btnApplyOrder</value>
+  </data>
+  <data name="&gt;&gt;btnApplyOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApplyOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;btnApplyOrder.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblCustomerProductRAM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerProductRAM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerProductRAM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerProductRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1763, 206</value>
+  </data>
+  <data name="lblCustomerProductRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="lblCustomerProductRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblCustomerProductRAM.Text" xml:space="preserve">
+    <value>זיכרון</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductRAM.Name" xml:space="preserve">
+    <value>lblCustomerProductRAM</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductRAM.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerProductRAM.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="cboxCustomerProductRAM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxCustomerProductRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 206</value>
+  </data>
+  <data name="cboxCustomerProductRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="cboxCustomerProductRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductRAM.Name" xml:space="preserve">
+    <value>cboxCustomerProductRAM</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductRAM.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerProductRAM.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblCustomerOrder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCustomerOrder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblCustomerOrder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCustomerOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1729, 154</value>
+  </data>
+  <data name="lblCustomerOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 25</value>
+  </data>
+  <data name="lblCustomerOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblCustomerOrder.Text" xml:space="preserve">
+    <value>בחר לקוח</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerOrder.Name" xml:space="preserve">
+    <value>lblCustomerOrder</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;lblCustomerOrder.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cboxCustomerOrder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxCustomerOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 154</value>
+  </data>
+  <data name="cboxCustomerOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="cboxCustomerOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerOrder.Name" xml:space="preserve">
+    <value>cboxCustomerOrder</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;cboxCustomerOrder.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="dgvCustomerOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 58</value>
+  </data>
+  <data name="dgvCustomerOrder.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dgvCustomerOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 985</value>
+  </data>
+  <data name="dgvCustomerOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomerOrder.Name" xml:space="preserve">
+    <value>dgvCustomerOrder</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomerOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomerOrder.Parent" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;dgvCustomerOrder.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="tabOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabOrders.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1853, 979</value>
+  </data>
+  <data name="tabOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabOrders.Text" xml:space="preserve">
+    <value>הזמנות</value>
+  </data>
+  <data name="&gt;&gt;tabOrders.Name" xml:space="preserve">
+    <value>tabOrders</value>
+  </data>
+  <data name="&gt;&gt;tabOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabOrders.Parent" xml:space="preserve">
+    <value>tabPcStore</value>
+  </data>
+  <data name="&gt;&gt;tabOrders.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabManager.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="picboxWorkerPic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="picboxWorkerPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 55</value>
+  </data>
+  <data name="picboxWorkerPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 540</value>
+  </data>
+  <data name="picboxWorkerPic.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="picboxWorkerPic.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;picboxWorkerPic.Name" xml:space="preserve">
+    <value>picboxWorkerPic</value>
+  </data>
+  <data name="&gt;&gt;picboxWorkerPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picboxWorkerPic.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;picboxWorkerPic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnExportArchiveOrders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExportArchiveOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1720, 420</value>
+  </data>
+  <data name="btnExportArchiveOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 34</value>
+  </data>
+  <data name="btnExportArchiveOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="btnExportArchiveOrders.Text" xml:space="preserve">
+    <value>צור גרף הזמנות מארכיון</value>
+  </data>
+  <data name="&gt;&gt;btnExportArchiveOrders.Name" xml:space="preserve">
+    <value>btnExportArchiveOrders</value>
+  </data>
+  <data name="&gt;&gt;btnExportArchiveOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExportArchiveOrders.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;btnExportArchiveOrders.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnExport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1606, 420</value>
+  </data>
+  <data name="btnExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 34</value>
+  </data>
+  <data name="btnExport.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="btnExport.Text" xml:space="preserve">
+    <value>ייצוא הזמנות  נוכחיות </value>
+  </data>
+  <data name="&gt;&gt;btnExport.Name" xml:space="preserve">
+    <value>btnExport</value>
+  </data>
+  <data name="&gt;&gt;btnExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExport.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;btnExport.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnWorkersExport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnWorkersExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1511, 382</value>
+  </data>
+  <data name="btnWorkersExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 23</value>
+  </data>
+  <data name="btnWorkersExport.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="btnWorkersExport.Text" xml:space="preserve">
+    <value>ייצוא רשימת עובדים </value>
+  </data>
+  <data name="&gt;&gt;btnWorkersExport.Name" xml:space="preserve">
+    <value>btnWorkersExport</value>
+  </data>
+  <data name="&gt;&gt;btnWorkersExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWorkersExport.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;btnWorkersExport.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblManagerAccount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblManagerAccount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblManagerAccount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblManagerAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1639, 1025</value>
+  </data>
+  <data name="lblManagerAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="lblManagerAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="lblManagerAccount.Text" xml:space="preserve">
+    <value>Manager Account</value>
+  </data>
+  <data name="&gt;&gt;lblManagerAccount.Name" xml:space="preserve">
+    <value>lblManagerAccount</value>
+  </data>
+  <data name="&gt;&gt;lblManagerAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblManagerAccount.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;lblManagerAccount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnRemoveWorker.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemoveWorker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1667, 382</value>
+  </data>
+  <data name="btnRemoveWorker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="btnRemoveWorker.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="btnRemoveWorker.Text" xml:space="preserve">
+    <value>הסר עובד</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveWorker.Name" xml:space="preserve">
+    <value>btnRemoveWorker</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveWorker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveWorker.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveWorker.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAddUpdateWorker.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddUpdateWorker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="lblAddUpdateWorker.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddUpdateWorker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1623, 42</value>
+  </data>
+  <data name="lblAddUpdateWorker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 29</value>
+  </data>
+  <data name="lblAddUpdateWorker.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="lblAddUpdateWorker.Text" xml:space="preserve">
+    <value>עדכון/הוספת עובד:</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateWorker.Name" xml:space="preserve">
+    <value>lblAddUpdateWorker</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateWorker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateWorker.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;lblAddUpdateWorker.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnAddWorkerDialog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddWorkerDialog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1753, 382</value>
+  </data>
+  <data name="btnAddWorkerDialog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 23</value>
+  </data>
+  <data name="btnAddWorkerDialog.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="btnAddWorkerDialog.Text" xml:space="preserve">
+    <value>אשר</value>
+  </data>
+  <data name="&gt;&gt;btnAddWorkerDialog.Name" xml:space="preserve">
+    <value>btnAddWorkerDialog</value>
+  </data>
+  <data name="&gt;&gt;btnAddWorkerDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddWorkerDialog.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;btnAddWorkerDialog.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cboxWorkerList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="cboxWorkerList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 89</value>
+  </data>
+  <data name="cboxWorkerList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 33</value>
+  </data>
+  <data name="cboxWorkerList.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;cboxWorkerList.Name" xml:space="preserve">
+    <value>cboxWorkerList</value>
+  </data>
+  <data name="&gt;&gt;cboxWorkerList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboxWorkerList.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;cboxWorkerList.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtboxWorkerPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxWorkerPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 332</value>
+  </data>
+  <data name="txtboxWorkerPassword.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtboxWorkerPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxWorkerPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerPassword.Name" xml:space="preserve">
+    <value>txtboxWorkerPassword</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerPassword.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerPassword.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtboxSearchWorker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxSearchWorker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 154</value>
+  </data>
+  <data name="txtboxSearchWorker.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtboxSearchWorker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxSearchWorker.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchWorker.Name" xml:space="preserve">
+    <value>txtboxSearchWorker</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchWorker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchWorker.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;txtboxSearchWorker.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtboxWorkerUserName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxWorkerUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 290</value>
+  </data>
+  <data name="txtboxWorkerUserName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtboxWorkerUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxWorkerUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerUserName.Name" xml:space="preserve">
+    <value>txtboxWorkerUserName</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerUserName.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerUserName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblFindWorker.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFindWorker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblFindWorker.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFindWorker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1696, 154</value>
+  </data>
+  <data name="lblFindWorker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 50</value>
+  </data>
+  <data name="lblFindWorker.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="lblFindWorker.Text" xml:space="preserve">
+    <value>חיפוש עובד:  
+(ת"ז)</value>
+  </data>
+  <data name="&gt;&gt;lblFindWorker.Name" xml:space="preserve">
+    <value>lblFindWorker</value>
+  </data>
+  <data name="&gt;&gt;lblFindWorker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFindWorker.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;lblFindWorker.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtboxWorkerName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxWorkerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 248</value>
+  </data>
+  <data name="txtboxWorkerName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtboxWorkerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxWorkerName.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerName.Name" xml:space="preserve">
+    <value>txtboxWorkerName</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerName.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerName.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtboxWorkerID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="txtboxWorkerID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1450, 206</value>
+  </data>
+  <data name="txtboxWorkerID.MaxLength" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtboxWorkerID.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtboxWorkerID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="txtboxWorkerID.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerID.Name" xml:space="preserve">
+    <value>txtboxWorkerID</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerID.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;txtboxWorkerID.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblWorkerName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWorkerName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblWorkerName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWorkerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1728, 248</value>
+  </data>
+  <data name="lblWorkerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="lblWorkerName.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="lblWorkerName.Text" xml:space="preserve">
+    <value>שם העובד</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerName.Name" xml:space="preserve">
+    <value>lblWorkerName</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerName.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblWorkerPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWorkerPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblWorkerPassword.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWorkerPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1758, 332</value>
+  </data>
+  <data name="lblWorkerPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 25</value>
+  </data>
+  <data name="lblWorkerPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="lblWorkerPassword.Text" xml:space="preserve">
+    <value>סיסמא</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerPassword.Name" xml:space="preserve">
+    <value>lblWorkerPassword</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerPassword.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerPassword.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblWorkerID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWorkerID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblWorkerID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWorkerID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1787, 211</value>
+  </data>
+  <data name="lblWorkerID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 25</value>
+  </data>
+  <data name="lblWorkerID.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblWorkerID.Text" xml:space="preserve">
+    <value>ת.ז</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerID.Name" xml:space="preserve">
+    <value>lblWorkerID</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerID.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerID.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblWorkerUserName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblWorkerUserName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblWorkerUserName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWorkerUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1717, 290</value>
+  </data>
+  <data name="lblWorkerUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 25</value>
+  </data>
+  <data name="lblWorkerUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lblWorkerUserName.Text" xml:space="preserve">
+    <value>שם משתמש</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerUserName.Name" xml:space="preserve">
+    <value>lblWorkerUserName</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerUserName.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;lblWorkerUserName.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="dgvWorkers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 58</value>
+  </data>
+  <data name="dgvWorkers.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dgvWorkers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 985</value>
+  </data>
+  <data name="dgvWorkers.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;dgvWorkers.Name" xml:space="preserve">
+    <value>dgvWorkers</value>
+  </data>
+  <data name="&gt;&gt;dgvWorkers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvWorkers.Parent" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;dgvWorkers.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tabManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabManager.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1853, 979</value>
+  </data>
+  <data name="tabManager.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabManager.Text" xml:space="preserve">
+    <value>מנהל</value>
+  </data>
+  <data name="&gt;&gt;tabManager.Name" xml:space="preserve">
+    <value>tabManager</value>
+  </data>
+  <data name="&gt;&gt;tabManager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabManager.Parent" xml:space="preserve">
+    <value>tabPcStore</value>
+  </data>
+  <data name="&gt;&gt;tabManager.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPcStore.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabPcStore.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>TopLeft</value>
+  </data>
+  <data name="tabPcStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPcStore.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="tabPcStore.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPcStore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1861, 1005</value>
+  </data>
+  <data name="tabPcStore.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPcStore.Name" xml:space="preserve">
+    <value>tabPcStore</value>
+  </data>
+  <data name="&gt;&gt;tabPcStore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPcStore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabPcStore.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pc Store</value>
+  </data>
+  <data name="&gt;&gt;Error.Name" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="&gt;&gt;Error.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logOutToolStripMenuItem.Name" xml:space="preserve">
+    <value>logOutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;logOutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
+    <value>saveFileDialog</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmPcStore</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="btnPopUpMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>210, 17</value>
+  </metadata>
+  <data name="logOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="logOutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnPopUpMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 48</value>
+  </data>
+  <data name="&gt;&gt;btnPopUpMenu.Name" xml:space="preserve">
+    <value>btnPopUpMenu</value>
+  </data>
+  <data name="&gt;&gt;btnPopUpMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>349, 17</value>
+  </metadata>
+</root>

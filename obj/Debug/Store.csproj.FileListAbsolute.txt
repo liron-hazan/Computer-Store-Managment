@@ -1,0 +1,126 @@
+C:\Users\kfir1\Desktop\Store\Store\bin\Debug\Store.exe
+C:\Users\kfir1\Desktop\Store\Store\bin\Debug\Store.exe.config
+C:\Users\kfir1\Desktop\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+C:\Users\kfir1\Desktop\Store\Store\obj\Debug\Store.frmPcStore.resources
+C:\Users\kfir1\Desktop\Store\Store\obj\Debug\Store.Properties.Resources.resources
+C:\Users\kfir1\Desktop\Store\Store\obj\Debug\Store.frmPcStore.aa.resources
+C:\Users\kfir1\Desktop\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+C:\Users\kfir1\Desktop\Store\Store\obj\Debug\aa\Store.resources.dll
+C:\Users\kfir1\Desktop\Store\Store\obj\Debug\Store.exe
+C:\Users\kfir1\Desktop\Store\Store\obj\Debug\Store.pdb
+C:\Users\kfir1\Desktop\Store\Store\bin\Debug\Store.pdb
+C:\Users\kfir1\Desktop\Store\Store\bin\Debug\aa\Store.resources.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\bin\Debug\Store.exe.config
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.exe
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.pdb
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\bin\Debug\Store.exe
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\bin\Debug\Store.pdb
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\bin\Debug\aa\Store.resources.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.frmAddUpdateCustomer.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.frmAddSupplier.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.frmPcStore.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.frmAddProduct.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.Properties.Resources.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.frmPcStore.aa.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\aa\Store.resources.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.frmCustomerOrderDetail.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.frmRemoveOrder.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store\Store\obj\Debug\Store.frmUpdateProduct.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\bin\Debug\Store.exe.config
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.exe
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.pdb
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\bin\Debug\Store.exe
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\bin\Debug\Store.pdb
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\bin\Debug\aa\Store.resources.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmAddUpdateCustomer.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmAddSupplier.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmCustomerOrderDetail.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmPcStore.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmAddProduct.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmRemoveOrder.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmUpdateProduct.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.Properties.Resources.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmPcStore.aa.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\aa\Store.resources.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\Store_New\Store\Store\obj\Debug\Store.frmLogIn.resources
+C:\Users\liron\Desktop\Store\Store\bin\Debug\Store.exe.config
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.exe
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.pdb
+C:\Users\liron\Desktop\Store\Store\bin\Debug\Store.exe
+C:\Users\liron\Desktop\Store\Store\bin\Debug\Store.pdb
+C:\Users\liron\Desktop\Store\Store\bin\Debug\aa\Store.resources.dll
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmAddUpdateCustomer.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmAddSupplier.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmCustomerOrderDetail.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmPcStore.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmAddProduct.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmRemoveOrder.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmUpdateProduct.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmLogIn.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.Properties.Resources.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.frmPcStore.aa.resources
+C:\Users\liron\Desktop\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+C:\Users\liron\Desktop\Store\Store\obj\Debug\aa\Store.resources.dll
+C:\Users\kfir1\Desktop\STORE\Store\obj\Debug\Store.frmLogIn.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\bin\Debug\Store.exe.config
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\Store.exe
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\Store.pdb
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\bin\Debug\Store.exe
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\bin\Debug\Store.pdb
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\bin\Debug\aa\Store.resources.dll
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\Store.frmPcStore.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\Store.frmLogIn.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\Store.Properties.Resources.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\Store.frmPcStore.aa.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\STORE\Store\obj\Debug\aa\Store.resources.dll
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\bin\Debug\Store.exe.config
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\Store.exe
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\Store.pdb
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\bin\Debug\Store.exe
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\bin\Debug\Store.pdb
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\bin\Debug\aa\Store.resources.dll
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\Store.csprojResolveAssemblyReference.cache
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\Store.frmPcStore.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\Store.frmLogIn.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\Store.Properties.Resources.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\Store.frmPcStore.aa.resources
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\Store.csproj.GenerateResource.Cache
+C:\Users\liron\Desktop\drive-download-20161226T172051Z\STORE\obj\Debug\aa\Store.resources.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\bin\Debug\Store.exe.config
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\Store.exe
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\Store.pdb
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\bin\Debug\Store.exe
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\bin\Debug\Store.pdb
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\bin\Debug\aa\Store.resources.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\Store.csprojResolveAssemblyReference.cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\Store.frmPcStore.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\Store.frmLogIn.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\Store.Properties.Resources.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\Store.frmPcStore.aa.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\Store.csproj.GenerateResource.Cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\פרויקט גמר\STORE\obj\Debug\aa\Store.resources.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\bin\Debug\Store.exe.config
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\bin\Debug\Store.exe
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\bin\Debug\Store.pdb
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\bin\Debug\itextsharp.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\bin\Debug\MaterialSkin.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\bin\Debug\itextsharp.xml
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\bin\Debug\Interop.AcroPDFLib.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\bin\Debug\AxInterop.AcroPDFLib.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Store.csprojResolveAssemblyReference.cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Interop.AcroPDFLib.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\AxInterop.AcroPDFLib.dll
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Store.csproj.ResolveComReference.cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Store.frmPcStore.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Store.frmLogIn.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Store.Properties.Resources.resources
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Store.csproj.GenerateResource.Cache
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Store.exe
+E:\לימודי הנדסאי תוכנה\פרויקט גמר\STORE\obj\Debug\Store.pdb
